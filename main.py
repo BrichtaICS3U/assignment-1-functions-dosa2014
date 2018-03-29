@@ -2,7 +2,6 @@
 # ICS3U
 # <karim gahelrasoul>
 # March 29, 2018
-# blah blah
 
 def CtoF (C):
     F = 1.8* C+32
