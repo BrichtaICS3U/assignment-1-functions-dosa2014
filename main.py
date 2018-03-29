@@ -3,7 +3,7 @@
 # <karim gahelrasoul>
 # March 29, 2018
 
-###### uncomment this when you are ready to work on it
+
 def CtoF (C):
     F = 1.8* C+32
     return F
