@@ -12,7 +12,18 @@ def FtoC (F):
  C = (0.55556) * (F-32)
  return C
 
-temperature = int(input('Enter your temperature in Celsius: '))
-print(round(CtoF(temperature)))
+print('print 1 for celcius, 2 for farenheight')
+x = int(input())
+
+if x == 1:
+    temperature1 = int(input('enter your number in farenheight'))
+    print(int(round(FtoC(temperature1))))
+elif x == 2:
+    temperature2 = int(input('enter your number in celcius'))
+    print(int(round(CtoF(temperature2))))
+else:
+    print('neither')
+    
+    
 
 
